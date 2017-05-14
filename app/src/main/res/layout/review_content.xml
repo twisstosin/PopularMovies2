@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/padding_left_or_right"
+    android:paddingRight="@dimen/padding_left_or_right"
+    android:paddingStart="@dimen/padding_left_or_right"
+    android:paddingEnd="@dimen/padding_left_or_right">
+
+    <TextView
+        android:id="@+id/review_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_detail"
+        tools:text="@string/authors_name"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/review_text"
+        android:paddingLeft="@dimen/padding_left_or_right"
+        android:paddingRight="@dimen/padding_left_or_right"
+        android:paddingStart="@dimen/padding_left_or_right"
+        android:paddingEnd="@dimen/padding_left_or_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        tools:text="This movie is awesome"
+        android:textSize="18sp"/>
+</LinearLayout>
